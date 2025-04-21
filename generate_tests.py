@@ -38,7 +38,7 @@ Provide only the code output, no extra explanations.
 
 # API request payload
 payload = {
-    "model": "qwen-2.5-coder-32b",  # Adjust model if needed
+    "model": "Qwen-2.5-32B",  # Adjust model if needed
     "messages": [
         {"role": "system", "content": "You are a helpful AI that writes unit tests."},
         {"role": "user", "content": prompt},
